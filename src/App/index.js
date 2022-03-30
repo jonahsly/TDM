@@ -69,7 +69,11 @@ function App() {
     newTodos.splice(todoIndex, 1);
     saveTodos(newTodos);
   };
-  
+ 
+  React.useEffect(() => {
+    console.log('use effect');
+  }, [totalTodos]);
+
   return (
     <AppUI
       totalTodos={totalTodos}
