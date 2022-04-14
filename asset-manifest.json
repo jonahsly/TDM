@@ -1,15 +1,13 @@
 {
-  "files": {
-    "main.css": "/TDM/static/css/main.581dffb3.css",
-    "main.js": "/TDM/static/js/main.9246aab8.js",
-    "index.html": "/TDM/index.html",
-    "static/media/delete.svg": "/TDM/static/media/delete.d9c7e0eeb3f573572e1521b7b69ed33e.svg",
-    "static/media/check.svg": "/TDM/static/media/check.af03c9a6a0411e40578874e6f00e807b.svg",
-    "main.581dffb3.css.map": "/TDM/static/css/main.581dffb3.css.map",
-    "main.9246aab8.js.map": "/TDM/static/js/main.9246aab8.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.581dffb3.css",
-    "static/js/main.9246aab8.js"
-  ]
+  "main.css": "/TDM/static/css/main.09d749a3.chunk.css",
+  "main.js": "/TDM/static/js/main.c31d7baf.chunk.js",
+  "main.js.map": "/TDM/static/js/main.c31d7baf.chunk.js.map",
+  "static/js/1.9ee8710d.chunk.js": "/TDM/static/js/1.9ee8710d.chunk.js",
+  "static/js/1.9ee8710d.chunk.js.map": "/TDM/static/js/1.9ee8710d.chunk.js.map",
+  "runtime~main.js": "/TDM/static/js/runtime~main.7be22e76.js",
+  "runtime~main.js.map": "/TDM/static/js/runtime~main.7be22e76.js.map",
+  "static/css/main.09d749a3.chunk.css.map": "/TDM/static/css/main.09d749a3.chunk.css.map",
+  "index.html": "/TDM/index.html",
+  "precache-manifest.569ac6d27fa67809858c2ec4282926d6.js": "/TDM/precache-manifest.569ac6d27fa67809858c2ec4282926d6.js",
+  "service-worker.js": "/TDM/service-worker.js"
 }
