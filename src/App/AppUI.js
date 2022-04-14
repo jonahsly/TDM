@@ -4,12 +4,12 @@ import { TodoCounter } from '../TodoCounter';
 import { TodoSearch } from '../TodoSearch';
 import { TodoList } from '../TodoList';
 import { TodoItem } from '../TodoItem';
-import { TodosError } from '../TodosError';
-import { TodosLoading } from '../TodosLoading';
-import { EmptyTodos } from '../EmptyTodos';
 import { TodoForm } from '../TodoForm';
 import { CreateTodoButton } from '../CreateTodoButton';
 import { Modal } from '../Modal';
+import { TodoError } from '../TodoError';
+import { TodoLoading } from '../TodoLoading';
+import { TodoEmpty } from '../TodoEmpty';
 
 function AppUI() {
   const {
@@ -28,9 +28,9 @@ function AppUI() {
       <TodoSearch />
 
       <TodoList>
-        {error && <TodosError />}
-        {loading && <TodosLoading />}
-        {(!loading && !searchedTodos.length) && <EmptyTodos />}
+        {error && <TodoError error={error}/>}
+        {loading && <TodoLoading/>}
+        {(!loading && !searchedTodos.length) && <TodoEmpty/>}
         
         {searchedTodos.map(todo => (
           <TodoItem
